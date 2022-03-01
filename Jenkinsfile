@@ -1,5 +1,7 @@
 pipeline{
-	agent any
+	agent {
+		label 'Daniel_Rueda'	
+	}
 	stages{
 		stage('build'){
 			steps{
